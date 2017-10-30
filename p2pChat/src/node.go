@@ -62,6 +62,8 @@ func main() {
 	reader := bufio.NewReader(os.Stdin) //read line from standard input
 	peerList := list.New()            //list of p2p chat users.
 
+	fmt.Println("\nRock Branch...")
+
 	fmt.Println("\n\n               Welcome to Peer-to-Peer (P2P) Command-Line Chat in Go language.\n\n")
 	fmt.Print("Run this node as main server? (y/n) ")
 
